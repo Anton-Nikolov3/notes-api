@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping("/demo")
 public class NoteController {
 
-    private final
+
     private final NoteRepository noteRepository;
 
     public NoteController(NoteRepository noteRepository) {
